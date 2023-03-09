@@ -19,19 +19,34 @@ h1 {
   font-weight: 900;
 }
 
+.card{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  gap:10px;
+  .card-title{
+    font-weight: bold;
+  }
+  .icon {
+    max-width: 100px;
+    max-height: 100px;
+  }
+}
+
 .bloco-1 {
   background-color: #f7ca18;
   color: white;
   .card {
     padding: 30px;
     color: #0a0a0a;
-    font-weight: bold;
-    font-style: italic;
-
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-style: italic; 
+    font-weight: bold;   
   }
-  .icone-bloco1 {
-    max-width: 100px;
-    max-height: 100px;
+}
+
+.criacao-produtos{
+  .card{
+    border-color:#f7ca18;
+    .card-title{
+      text-transform: uppercase;
+    }
   }
 }
