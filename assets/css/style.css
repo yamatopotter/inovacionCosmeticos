@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+* {
+  font-family: "Lato", sans-serif;
+}
+
 #intro {
   background: linear-gradient(rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.5)), url("../img/intro.jpg") no-repeat center center/cover;
   display: flex;
@@ -6,6 +11,24 @@
   padding: 40px;
   color: #fff;
 }
-#intro .title {
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.bloco-1 {
+  background-color: #f7ca18;
+  color: white;
+}
+.bloco-1 .card {
+  padding: 30px;
+  color: #0a0a0a;
   font-weight: bold;
+  font-style: italic;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.bloco-1 .icone-bloco1 {
+  max-width: 100px;
+  max-height: 100px;
 }/*# sourceMappingURL=style.css.map */
