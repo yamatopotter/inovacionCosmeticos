@@ -12,6 +12,14 @@
   color: #fff;
 }
 
+.btn {
+  font-weight: bold;
+  text-transform: uppercase;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+
 h1 {
   text-transform: uppercase;
   font-weight: 900;
@@ -45,4 +53,27 @@ h1 {
 }
 .criacao-produtos .card .card-title {
   text-transform: uppercase;
+}
+
+.cta-1 {
+  background: url("../img/hands.png") no-repeat center center, linear-gradient(#0575E6, #021B79);
+  color: #fff;
+}
+
+.producao .card {
+  border-color: #f7ca18;
+}
+
+.bronzeamento {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/cta-2.jpg") no-repeat center center/cover;
+  color: #fff;
+}
+
+.preocupacao .card {
+  border-color: #f7ca18;
+}
+
+.contato {
+  background: linear-gradient(#0575E6, #021B79);
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */
